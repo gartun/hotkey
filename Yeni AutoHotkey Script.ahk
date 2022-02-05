@@ -101,26 +101,47 @@ return
 Send, {f9}diğer{tab 6}{space}{enter}{down}
 return
 
+; DİĞER MUHTELİF EVRAKLAR
 ^!1::
 Send, {f9}lif{tab 6}{space}{enter}{down}
 return
 
+; SOSYAL GÜVELİK KAYIT(AÇILIŞ)
 ^!2::
 Send, {f9}karekodlu{tab 6}{space}{enter}{down}
 return
 
+; İKAMETGAH(ADRES)
 ^!3::
 Send, {f9}İkametgah{tab 6}{space}{enter}{down}
 return
 
+; GÖREV TANIMI(ÇALIŞMA BELGESİ)
 ^!4::
 Send, {f9}muhasebe biriminde{tab 6}{space}{enter}{down}
 return
 
+; FİRMANIN ORGANİZASYON ŞEMASI
 ^!5::
 Send, {f9}Firma{tab 6}{space}{enter}{down}
 return
 
+; BOŞ TEZKİYE
+^!6::
+Send, {f9}tezkiye{tab 6}{space}{enter}{down}
+return
+
+; BOŞ STAJ ONAY BELGESİ
+^!7::
+Send, {f9}staj onay{tab 6}{space}{enter}{down}
+return
+
+; BOŞ TEK KİŞİ STAJ BELGESİ
+^!8::
+Send, {f9}tek k{tab 6}{space}{enter}{down}
+return
+
+; BOŞ TESPİT TUTANAĞI (MATBU)
 ^m::
 Send, {f9}matbu{tab 6}{space}{enter}{down}
 return
