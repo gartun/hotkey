@@ -244,3 +244,11 @@ return
 ^#y::
 Send, {f9}yevmiye{tab 4} ^v {tab 2}{space}{enter}{down}
 return
+
+^#o::
+Send, {f9}staj onay belge{tab 6}{space}{enter}{down}
+return
+
+^#t::
+Send, {f9}tezkiye{tab 6}{space}{enter}{down}
+return
