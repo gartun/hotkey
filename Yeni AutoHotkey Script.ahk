@@ -160,6 +160,19 @@ return
 Send, {f9}şa{tab 6}{space}{enter}{down}
 return
 
+^#j::
+Send, {f9}Staja Başlama Dilekçesi / İş Yeri{tab 6}{space}{enter}{down}
+return
+
+^#k::
+Send, {f9}Staja Başlama Dilekçesi/ İş Yeri{tab 6}{space}{enter}{down}
+return
+
+^#l::
+Send, {f9}staj başlama dilekçesi / {tab 6}{space}{enter}{down}
+return
+
+
 ^!b::
 Send, {f9}staj başlatma bel{tab 4} ^v {tab 2}{space}{enter}{down}
 return
@@ -200,6 +213,10 @@ return
 Send, {f9}SGK İşten Ayrılış{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
+^!p::
+Send, {f9}sgk Tescil ve Hizmet Dökümü (Meslek{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
 ^!c::
 Send, {f9}Ticaret Sicil Gazetesi ve Yetkili İmza Sirküleri (son düzenlenen){tab 4} ^v {tab 2}{space}{enter}{down}
 return
@@ -214,4 +231,16 @@ return
 
 ^!z::
 Send, {f9}sözleşme{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
+^#e::
+Send, {f9}envanter{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
+^#d::
+Send, {f9}defter-i{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
+^#y::
+Send, {f9}yevmiye{tab 4} ^v {tab 2}{space}{enter}{down}
 return
