@@ -160,6 +160,10 @@ return
 Send, {f9}şa{tab 6}{space}{enter}{down}
 return
 
+^#1::
+Send, {f9}tescil ve hizmet dökümü (Mes{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
 ^#j::
 Send, {f9}Staja Başlama Dilekçesi / İş Yeri{tab 6}{space}{enter}{down}
 return
@@ -250,5 +254,9 @@ Send, {f9}staj onay belge{tab 6}{space}{enter}{down}
 return
 
 ^#t::
+Send, {f9}tek kişi{tab 6}{space}{enter}{down}
+return
+
+^#z::
 Send, {f9}tezkiye{tab 6}{space}{enter}{down}
 return
