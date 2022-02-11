@@ -252,6 +252,10 @@ return
 Send, {f9}staj başvuru formu{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
+^!6::
+Send, {f9}serbest mesle{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
 ^#o::
 Send, {f9}staj onay belge{tab 6}{space}{enter}{down}
 return
