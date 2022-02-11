@@ -51,6 +51,10 @@ return
 Send, {f9}diploma/{tab 6}{space}{enter}{down}
 return
 
+^r::
+Send, {f9}lisans{tab 6}{space}{enter}{down}
+return
+
 ^e::
 Send, {f9}e-Mezun{tab 6}{space}{enter}{down}
 return
@@ -101,6 +105,10 @@ return
 Send, {f9}diğer{tab 6}{space}{enter}{down}
 return
 
+^0::
+Send, {f9}meslek mensubu değ{tab 6}{space}{enter}{down}
+return
+
 ; DİĞER MUHTELİF EVRAKLAR
 ^!1::
 Send, {f9}lif{tab 6}{space}{enter}{down}
@@ -126,20 +134,7 @@ return
 Send, {f9}Firma{tab 6}{space}{enter}{down}
 return
 
-; BOŞ TEZKİYE
-^!6::
-Send, {f9}tezkiye{tab 6}{space}{enter}{down}
-return
 
-; BOŞ STAJ ONAY BELGESİ
-^!7::
-Send, {f9}staj onay{tab 6}{space}{enter}{down}
-return
-
-; BOŞ TEK KİŞİ STAJ BELGESİ
-^!8::
-Send, {f9}tek k{tab 6}{space}{enter}{down}
-return
 
 ; BOŞ TESPİT TUTANAĞI (MATBU)
 ^m::
@@ -237,6 +232,10 @@ return
 Send, {f9}sözleşme{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
+^#b::
+Send, {f9}beyannameler {tab 4} ^v {tab 2}{space}{enter}{down}
+return						 
+
 ^#e::
 Send, {f9}envanter{tab 4} ^v {tab 2}{space}{enter}{down}
 return
@@ -247,6 +246,10 @@ return
 
 ^#y::
 Send, {f9}yevmiye{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
+^#n::
+Send, {f9}staj başvuru formu{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
 ^#o::
