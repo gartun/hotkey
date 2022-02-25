@@ -105,6 +105,10 @@ return
 Send, {f9}diğer{tab 6}{space}{enter}{down}
 return
 
+^!9::
+Send, {f9}diğer{tab 6}{down 5}{enter}{down}
+return
+
 ^0::
 Send, {f9}meslek mensubu değ{tab 6}{space}{enter}{down}
 return
@@ -126,7 +130,7 @@ return
 
 ; GÖREV TANIMI(ÇALIŞMA BELGESİ)
 ^!4::
-Send, {f9}muhasebe biriminde{tab 6}{space}{enter}{down}
+Send, {f9}muhasebe biriminde{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
 ; FİRMANIN ORGANİZASYON ŞEMASI
@@ -134,7 +138,9 @@ return
 Send, {f9}Firma{tab 6}{space}{enter}{down}
 return
 
-
+^!7::
+Send, {f9}staja başlama ön baş{tab 6}{space}{enter}{down}
+return
 
 ; BOŞ TESPİT TUTANAĞI (MATBU)
 ^m::
@@ -202,6 +208,10 @@ return
 
 ^!g::
 Send, {f9}sgk İşe Giriş Bildirgesi (aday{tab 4} ^v {tab 2}{space}{enter}{down}
+return
+
+^!8::
+Send, {f9}vergi mükell{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
 ^!ğ::
