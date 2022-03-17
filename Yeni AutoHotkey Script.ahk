@@ -31,6 +31,10 @@ return
 Send, {f9}sgs sonuç{tab 6}{space}{enter}{down}
 return
 
+^g::
+Send, {f9}oda yönetim kurulu kararları{tab 6}{space}{enter}{down}
+return
+
 ^ö::
 Send, {f9}giriş{tab 6}{space}{enter}{down}
 return
@@ -135,7 +139,7 @@ return
 
 ; FİRMANIN ORGANİZASYON ŞEMASI
 ^!5::
-Send, {f9}Firma{tab 6}{space}{enter}{down}
+Send, {f9}Firma{tab 4} ^v {tab 2}{space}{enter}{down}
 return
 
 ^!7::
@@ -159,6 +163,26 @@ return
 
 ^!ş::
 Send, {f9}şa{tab 6}{space}{enter}{down}
+return
+
+^Numpad1::
+Send, {f9}Dosya{tab 6}{space}{enter}{down}
+return
+
+^Numpad2::
+Send, {f9}Dosya{tab 6}{space}{down}{enter}{down}
+return
+
+^Numpad3::
+Send, {f9}Doğum öncesi{tab 6}{space}{enter}{down}
+return
+
+^Numpad4::
+Send, {f9}Doğum sonrası{tab 6}{space}{enter}{down}
+return
+
+^Numpad5::
+Send, {f9}e-s{tab 6}{space}{enter}{down}
 return
 
 ^#1::
