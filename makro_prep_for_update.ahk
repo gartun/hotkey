@@ -59,12 +59,36 @@ return
 Send, {f9}e-Mezun{tab 6}{space}{enter}
 return
 
+^g::
+Send, {f9}oda yönetim kurulu kararları{tab 6}{space}{enter}
+return
+
 ^j::
 Send, {f9}staj ile ilgili{tab 6}{space}{enter}
 return
 
 ^p::
 Send, {f9}şiler{tab 6}{space}{enter}
+return
+
+^Numpad1::
+Send, {f9}Dosya{tab 6}{space}{enter}
+return
+
+^Numpad2::
+Send, {f9}Dosya{tab 6}{space}{down}{enter}
+return
+
+^Numpad3::
+Send, {f9}Doğum öncesi{tab 6}{space}{enter}
+return
+
+^Numpad4::
+Send, {f9}Doğum sonrası{tab 6}{space}{enter}
+return
+
+^Numpad5::
+Send, {f9}e-s{tab 6}{space}{enter}
 return
 
 ^1::
@@ -126,15 +150,21 @@ return
 
 ; GÖREV TANIMI(ÇALIŞMA BELGESİ)
 ^!4::
-Send, {f9}muhasebe biriminde{tab 6}{space}{enter}
+Send, {f9}muhasebe biriminde{tab 4} ^v {tab 2}{space}{enter}
 return
 
 ; FİRMANIN ORGANİZASYON ŞEMASI
 ^!5::
-Send, {f9}Firma{tab 6}{space}{enter}
+Send, {f9}Firma{tab 4} ^v {tab 2}{space}{enter}
 return
 
+^!7::
+Send, {f9}ön ba{tab 6}{space}{enter}
+return
 
+^!8::
+Send, {f9}vergi mük{tab 4} ^v {tab 2}{space}{enter}
+return
 
 ; BOŞ TESPİT TUTANAĞI (MATBU)
 ^m::
